@@ -14,6 +14,7 @@ import { MembersComponent } from './members/members.component';
 import { UserComponent } from './members/user/user.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProjectComponent } from './project/project.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ProjectComponent } from './project/project.component';
     UserComponent,
     ProfileComponent,
     ProjectComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,
