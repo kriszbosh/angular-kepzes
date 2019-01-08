@@ -8,10 +8,10 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-2 offset-md-1 pt-1">
+          <div class="col-md-3 pt-2">
             <span class="align-middle">File name</span>
           </div>
-          <div class="col-md-2 offset-md-1 pt-1">
+          <div class="col-md-3 pt-2">
             <span class="align-middle">Last updated</span>
           </div>
         </div>
@@ -23,11 +23,11 @@
               <i *ngIf="isFolder" class="fas fa-folder"></i>
               <i *ngIf="!isFolder" class="fas fa-folder"></i>
           </div>
-          <div class="col-md-2 offset-md-1 pt-1">
+          <div class="col-md-3 pt-2">
             <span class="align-middle">{{file.fileName}}</span>
           </div>
-          <div class="col-md-2 offset-md-1 pt-1">
-            <span class="align-middle">{{file.lastUpdate | date:'medium'}}</span>
+          <div class="col-md-3 pt-2">
+            <span class="align-middle">{{file.lastUpdate | date:'short'}}</span>
           </div>
         </div>
       </li>
