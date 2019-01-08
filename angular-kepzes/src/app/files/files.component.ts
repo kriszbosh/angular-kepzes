@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { getLocaleDateFormat } from '@angular/common';
 
 @Component({
   selector: 'app-files',

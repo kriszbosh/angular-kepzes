@@ -26,7 +26,7 @@ import { ProjectComponent } from './project/project.component';
     MembersComponent,
     UserComponent,
     ProfileComponent,
-    ProjectComponent
+    ProjectComponent,
   ],
   imports: [
     BrowserModule,
