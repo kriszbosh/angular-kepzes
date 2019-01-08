@@ -1,3 +1,37 @@
-<p>
-  files works!
-</p>
+<div class="card">
+    <div class="card-header">
+      Member
+    </div>
+    <div class="card-body p-5">
+      <ul class="list-group">
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-3 offset-md-1 pt-2">
+              <span class="align-middle">File name</span>
+            </div>
+            <div class="col-md-3 offset-md-5 pt-2">
+              <span class="align-middle">File type</span>
+            </div>
+            <div class="col-md-3 offset-md-5 pt-2">
+              <span class="align-middle">Last updated</span>
+            </div>
+          </div>
+        </li>
+  
+        <li class="list-group-item" *ngFor="let member of members">
+          <div class="row">
+            <div class="col-md-1">
+              <img src="" height="40" width="40" class="rounded-circle">
+            </div>
+            <div class="col-md-3 pt-2">
+              <span class="align-middle">{{member.username}}</span>
+            </div>
+            <div class="col-md-3 offset-md-5 pt-2">
+              <span class="align-middle">{{member.accessLevel}}</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+  </div>

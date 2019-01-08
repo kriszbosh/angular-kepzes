@@ -15,8 +15,18 @@
         </div>
       </li>
 
-      <li class="list-group-item">
-        <app-user></app-user>
+      <li class="list-group-item" *ngFor="let member of members">
+        <div class="row">
+          <div class="col-md-1">
+            <img src="" height="40" width="40" class="rounded-circle">
+          </div>
+          <div class="col-md-3 pt-2">
+            <span class="align-middle">{{member.username}}</span>
+          </div>
+          <div class="col-md-3 offset-md-5 pt-2">
+            <span class="align-middle">{{member.accessLevel}}</span>
+          </div>
+        </div>
       </li>
     </ul>
   </div>
