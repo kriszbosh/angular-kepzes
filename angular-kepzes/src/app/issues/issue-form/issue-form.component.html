@@ -1,0 +1,48 @@
+<div class="card">
+  <div class="card-header">
+    New Issue
+    <div class="card-body">
+
+
+      <form>
+        <div class="row">
+          <div class="form-group col-md-5">
+            <label for="email">Title</label>
+            <input type="text" class="form-control" id="title" placeholder="Title" required>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="form-group col-md-10">
+            <label for="description">Description</label>
+            <textarea class="form-control" id="description" placeholder="Type description here.." required></textarea>
+          </div>
+        </div>
+
+        <div class="row col-md-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Assignee</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected>Choose...</option>
+              <option value="1">Valaki</option>
+              <option value="2">Valaki más</option>
+              <option value="3">Akárki</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-10">
+            <button type="submit" class="btn btn-primary">Submit issue</button>
+          </div>
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>

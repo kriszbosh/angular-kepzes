@@ -15,6 +15,8 @@ import { UserComponent } from './members/user/user.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProjectComponent } from './project/project.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { IssuesComponent } from './issues/issues.component';
+import { IssueFormComponent } from './issues/issue-form/issue-form.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     ProfileComponent,
     ProjectComponent,
     PagenotfoundComponent,
+    IssuesComponent,
+    IssueFormComponent,
   ],
   imports: [
     BrowserModule,
